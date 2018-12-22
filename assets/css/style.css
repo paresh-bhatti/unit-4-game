@@ -1,0 +1,119 @@
+.container {
+
+    background-image: url(../images/vintage-concrete.png);
+}
+
+.Header{
+color: goldenrod;
+font: 100;
+font-size: 50px;
+background-color: black;
+width:35%;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.instructions {
+color: green;
+font-family: 'Times New Roman', Times, serif; 
+font-size: 25px;
+background-color: burlywood;
+width: 60%;
+padding-top: 30px;
+margin-top: 20px;
+margin-left: 20px;
+padding-bottom: 20px;
+text-align: justify;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+.box {
+margin-top: 20px;
+justify-content: right;
+
+}
+
+.randomNumber {
+box-shadow: 20px;
+background-color: chartreuse;
+height: 100px;
+width: 20%;
+margin-top: 0px;
+margin-left: 20px;
+float: left;
+font-size: 50px;
+justify-content: center;
+text-align: center;
+padding-top: 20px;
+
+
+}
+
+.box2 {
+    float: left;
+    background-color: aqua;
+    height: 100px;
+    width: 150px;
+    margin-left: 20px;
+    justify-content: left;
+    padding-top: 10px;
+    font-size: 20px; 
+    
+}
+
+.crystals {
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px; 
+    margin-left: 20px;   
+    
+    }
+    
+.crystal {
+    
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    transition-duration: 500ms;
+    box-shadow: 5px 5px 5px rgba(red, green, blue, alpha);
+    transition: box-shadow 1s;
+   
+       
+    }
+
+.crystal:hover {
+    box-shadow: 5px 5px 5px rgba(red, green, blue, alpha);
+    cursor: pointer;
+    transition-duration: 500ms;
+    transform-box: 1s;
+    
+    }
+
+.score2 {
+
+background-color: aquamarine;
+font-size: 20px;
+width: 20%;
+height: 30px;
+margin-left: 20px;
+margin-top: 20px;
+padding-top: 5px;
+margin-right: 0px;
+}
+
+.totalScore {
+font-size: 50px;
+height: 100px;
+width:20%;
+background-color: aqua;
+padding-top: 20px;
+margin-left: 20px;
+margin-top: 20px;
+
+}
